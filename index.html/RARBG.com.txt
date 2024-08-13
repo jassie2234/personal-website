@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人簡介</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 2em 0;
+        }
+        .content {
+            background: #fff;
+            padding: 2em;
+            margin-bottom: 1em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .photo {
+            text-align: center;
+            margin: 2em 0;
+        }
+        .photo img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .contact-info {
+            text-align: center;
+            margin: 2em 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>個人簡介</h1>
+</header>
+
+<div class="container">
+    <div class="content">
+        <h2>自我介紹</h2>
+        <p>我今年35歲，來自屏東，是家中的長女。個性獨立、隨和，做事有耐心，喜歡學習新的事物也熱愛旅行。</p>
+    </div>
+
+    <div class="content">
+        <h2>教育背景</h2>
+        <p><strong>真理大學應用英語學系</strong></p>
+        <p>在學期間培養了良好的溝通能力和國際視野，使我能夠在多元文化的環境中有效地進行協作和交流。此外，我還積極參與各類學生活動，擔任學生會成員，這些經歷提升了我的領導力和團隊合作精神。</p>
+    </div>
+
+    <div class="content">
+        <h2>工作經歷</h2>
+        <p><strong>美語補習班老師</strong></p>
+        <p>進入職場後生活變得更為忙碌，經常是早出晚歸假日備課的生活，長時間的工時與壓力讓身體不堪負荷，最終決定辭職。</p>
+        
+        <p><strong>安親班課輔老師</strong></p>
+        <p>因前一份工作的經驗適應得很快，工作了一段時間後，因政府推廣的青年就業讚計畫，參加了全職培訓課程，學習了辦公室文書軟體Excel, Word, PowerPoint，並考取了Auto CAD2012國際認證以及MOS Word 2010 Expert證照。</p>
+        
+        <p><strong>傳統製造業品管</strong></p>
+        <p>專門生產精密金屬加工，負責生產過程中的品質控制、問題排查及改進方案的制定和實施。期間曾辭職到澳洲打工度假，回國後繼續任職，後來因人生規劃正式提出辭呈。</p>
+    </div>
+
+    <div class="content">
+        <h2>專業技能</h2>
+        <p>市場分析、產品設計及行銷策略</p>
+        <p>辦公室文書軟體Excel, Word, PowerPoint</p>
+        <p>Auto CAD2012國際認證</p>
+        <p>MOS Word 2010 Expert證照</p>
+        <p>數據分析工具</p>
+    </div>
+
+    <div class="content">
+        <h2>成就和培訓</h2>
+        <p>參加職訓局提供的兩個半月產品開發與行銷實戰班，學習了市場分析、產品設計及行銷策略等實用技能，並通過實際案例和專案操作，進一步加強了實戰能力。</p>
+        <p>在傳統製造業擔任品管時，確保產品符合公司和客戶的高標準要求，培養了細緻、嚴謹的工作態度及良好的問題解決能力。</p>
+    </div>
+
+    <div class="content">
+        <h2>興趣和愛好</h2>
+        <p>熱愛旅行</p>
+        <p>喜歡學習新的事物</p>
+    </div>
+
+    <div class="content contact-info">
+        <h2>聯絡資訊</h2>
+        <p>電子郵件： [你的電子郵件地址]</p>
+        <p>電話號碼： [你的電話號碼]</p>
+    </div>
+
+    <div class="content photo">
+        <h2>照片</h2>
+        <img src="path/to/your/photo.jpg" alt="個人照片">
+    </div>
+</div>
+
+</body>
+</html>
